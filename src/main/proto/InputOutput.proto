@@ -1,0 +1,14 @@
+syntax = "proto3";
+package InputOutput;
+
+option java_package = "com.example.demo.model";
+option java_outer_classname = "InputOutputData";
+
+message Input {
+    string name = 1;
+    int32 age = 2;
+}
+
+message Output{
+    string result = 1;
+}
