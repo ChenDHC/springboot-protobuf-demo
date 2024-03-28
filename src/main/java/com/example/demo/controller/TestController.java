@@ -22,8 +22,6 @@ public class TestController {
         System.out.println(input.getAge());
 
 
-
-
         // 输出
         InputOutputData.Output.Builder outBuilder = InputOutputData.Output.newBuilder();
         outBuilder.setResult("老大回来了");

@@ -42,6 +42,7 @@ public class DemoApplicationTests {
         InputOutputData.Output output =  httpPost(input.toByteArray(), "http://127.0.0.1:8087/test");
         if(output != null){
             System.out.println(output.getResult());
+            System.out.println(output);
         }
     }
 
